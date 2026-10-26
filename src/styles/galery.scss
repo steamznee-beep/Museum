@@ -1,0 +1,41 @@
+.galery {
+  padding: 200px 0;
+
+  &-strok {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  &-small-photo {
+    width: 370px;
+    height: 600px;
+
+    &-under {
+      width: 370px;
+      height: 360px;
+    }
+  }
+
+  &-big-photo {
+    width: 770px;
+    height: 600px;
+
+    &-under {
+      width: 770px;
+      height: 360px;
+    }
+  }
+
+  &-label {
+    font-family:
+      Montserrat Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0f0e08;
+  }
+}

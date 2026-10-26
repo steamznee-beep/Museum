@@ -1,0 +1,86 @@
+.active {
+
+  &-section{
+    display: flex;
+    gap: 130px;
+    padding-bottom: 104px;
+  }
+  &-h1 {
+    font-family:
+      Montserrat Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0f0e08;
+  }
+  &-image {
+    width: 670px;
+    height: 520px;
+    display: block;
+  }
+  &-micro-label {
+    display: flex;
+    font-family:
+      IBM Plex Sans Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #687480;
+    gap: 30px;
+    align-items: center;
+
+    &::after {
+      content: '26.08-29.11.2019';
+      font-family:
+        IBM Plex Sans Arial,
+        Helvetica,
+        sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0%;
+      color: #1a5a4c;
+    }
+  }
+  &-label {
+    font-family:
+      Montserrat Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #0f0e08;
+    line-height: 100%;
+    letter-spacing: 0%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    &::after {
+      content: '';
+      width: 15px;
+      height: 15px;
+      background-color: #f14a27;
+    }
+  }
+  &-text {
+    font-family:
+      IBM Plex Sans Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #4E4E4E;
+    max-width: 370px;
+    max-height: 97px;
+  }
+}

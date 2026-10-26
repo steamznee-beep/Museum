@@ -1,0 +1,76 @@
+.subscribe {
+  position: relative;
+  background-image: url(/src/images/Rectangle\ 22.png);
+  width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &-label {
+    font-family:
+      Montserrat Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+
+    &-micro {
+      font-family:
+        IBM Plex Sans Arial,
+        Helvetica,
+        sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #fff;
+      margin: 0;
+    }
+  }
+  &-input {
+    width: 470px;
+    height: 70px;
+    opacity: 1;
+    border: none;
+    box-sizing: border-box;
+
+    &::placeholder {
+      color: #687480;
+      font-family: Montserrat Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      padding: 28px 32px;
+    }
+  }
+  &-button{
+    width: 70px;
+    height: 70px;
+    background-color: #F14A27;
+    border: none;
+  }
+  &-icon{
+    width: 24px;
+    height: 24px;
+  }
+
+  &-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  &-text{
+    padding-top: 163px;
+    padding-bottom: 72px;
+    margin: 0;
+    display: block;
+  }
+}
