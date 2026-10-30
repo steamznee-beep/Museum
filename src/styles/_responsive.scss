@@ -87,7 +87,7 @@
   }
 
   .header-logo {
-    margin: 20px  320px 28px;
+    margin: 20px 320px 28px;
     font-size: 28px;
   }
 
@@ -111,7 +111,7 @@
     height: 60px;
   }
 
-  .header-events{
+  .header-events {
     margin-top: 80px;
   }
 
@@ -309,16 +309,20 @@
     margin: 20px 0 0;
   }
   .header-button {
-    width: 109px;
+    width: 100%;
     height: 57px;
     margin: 0;
+    margin-bottom: 50px;
+
   }
   .header-title {
-    font-size: 20px;
+    padding-top: 250px;
+    font-size: 45px;
     margin-top: 120px;
+    text-align: center;
   }
   .header-events {
-    margin-top: 90px;
+    display: none;
   }
   .header-logo {
     margin: 10px 120px 18px;
@@ -329,5 +333,16 @@
     height: auto;
     min-height: 120px;
     padding: 0 29px 44px;
+  }
+  .header-photo {
+    width: 100%;
+    height: 63%;
+  }
+
+  .active-h1{
+    padding: 0 20px;
+    max-width: 279px;
+    text-align: center;
+    font-size: 36px;
   }
 }
