@@ -13,12 +13,102 @@
     />
   </head>
   <body>
+    <aside
+      id="menu"
+      class="aside"
+      aria-label="Навігація та графік роботи"
+    >
+      <div class="aside-content">
+        <a
+          href="#"
+          class="aside-button"
+        >
+          <img
+            src="/src/images/Vector (2).png"
+            alt="close image"
+            class="aside-button-image"
+          />
+        </a>
+        <div class="aside-block">
+          <a
+            href="#galery"
+            class="aside-link"
+          >
+            Галерея
+          </a>
+          <a
+            href="#podiy"
+            class="aside-link"
+          >
+            Виставки та
+            <br />
+            події
+          </a>
+        </div>
+        <div class="aside-block">
+          <a
+            href="#about-us"
+            class="aside-link"
+          >
+            Про Нас
+          </a>
+          <a
+            href="#contact"
+            class="aside-link"
+          >
+            Контакти
+          </a>
+        </div>
+        <div class="aside-line"></div>
+        <div class="aside-graphik">
+          <h2 class="aside-micro-label">Графік роботи</h2>
+          <div class="aside-graphik-block">
+            <ul class="aside-list">
+              <li class="aside-item">
+                12:00 — 20:00
+                <span class="aside-span">середа</span>
+              </li>
+              <li class="aside-item">
+                12:00 — 20:00
+                <span class="aside-span">четвер</span>
+              </li>
+              <li class="aside-item">
+                12:00 — 20:00
+                <span class="aside-span">п’ятниця</span>
+              </li>
+              <li class="aside-item">
+                11:00 — 19:00
+                <span class="aside-span">субота</span>
+              </li>
+              <li class="aside-item">
+                11:00 — 19:00
+                <span class="aside-span">неділя</span>
+              </li>
+            </ul>
+            <p class="aside-text">
+              Вихідні:
+              <span class="aside-span">
+                понеділок,
+                <br />
+                вівторок
+                <br />
+                Каса припиняє роботу за
+                <br />
+                1 годину
+                <br />
+                до закриття музею
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </aside>
     <header class="header">
       <div class="container">
         <div class="header-content">
           <div class="header-top">
             <a
-              href="#"
+              href="#menu"
               class="header-link"
             >
               <img
@@ -67,7 +157,10 @@
 
     <main class="main">
       <div class="container">
-        <section class="active">
+        <section
+          class="active"
+          id="podiy"
+        >
           <h1 class="active-h1">Актуальні події</h1>
           <div class="active-section">
             <img
@@ -117,7 +210,10 @@
         </div>
       </section>
 
-      <section class="galery">
+      <section
+        class="galery"
+        id="galery"
+      >
         <div class="container">
           <h1 class="galery-label">Галерея</h1>
           <div class="galery-strok">
@@ -178,7 +274,10 @@
         </form>
       </section>
     </main>
-    <footer class="footer">
+    <footer
+      class="footer"
+      id="contact"
+    >
       <div class="footer-content">
         <div class="footer-icon">
           <h1 class="footer-logo">
@@ -188,7 +287,7 @@
           </h1>
           <div class="footer-icon-image">
             <a
-              href="#"
+              href="https://www.facebook.com/?locale=ru_RU"
               class="footer-link"
             >
               <img
@@ -198,7 +297,7 @@
               />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/?hl=ru"
               class="footer-link"
             >
               <img
@@ -290,7 +389,10 @@
             Виставки та події
           </a>
         </div>
-        <div class="about-us">
+        <div
+          class="about-us"
+          id="about-us"
+        >
           <h1 class="footer-label">Про Нас</h1>
           <a
             href="#"

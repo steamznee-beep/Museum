@@ -7,6 +7,15 @@
 @import 'galery';
 @import 'subscribe';
 @import 'footer';
+@import 'aside';
+
+html {
+  scroll-behavior: smooth;
+
+  &:has(.aside:target) {
+    overflow: hidden;
+  }
+}
 
 body {
   margin: 0;
