@@ -1,8 +1,10 @@
 .header {
-  display: flex;
   position: relative;
-  margin: 0;
+
+  display: flex;
+
   height: 100vh;
+  margin: 0;
   padding-bottom: 200px;
   &-icon {
     width: 18px;
@@ -21,63 +23,70 @@
   }
 
   &-logo {
+    margin: 15px 50%;
+
     font-family:
-      Montserrat Arial,
+      "Montserrat Arial",
       Helvetica,
       sans-serif;
-    font-weight: 700;
     font-size: 36px;
+    font-weight: 700;
     line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
     color: #0f0e08;
+    text-align: center;
     text-decoration: none;
-    margin: 15px 50%;
+    letter-spacing: 0%;
   }
 
   &-title {
+    margin-top: 143px;
+
     font-family:
-      Montserrat Arial,
+      "Montserrat Arial",
       Helvetica,
       sans-serif;
-    font-weight: 700;
     font-size: 72px;
+    font-weight: 700;
     line-height: 120%;
-    letter-spacing: 0%;
     color: #000;
-    margin-top: 143px;
+    letter-spacing: 0%;
   }
 
   &-button {
+    display: flex;
+    align-items: center;
+
     width: 269px;
     height: 70px;
-    border: 1px solid #1a5a4c;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
     margin-top: 79px;
     margin-left: 10%;
+    border: 1px solid #1a5a4c;
+
+    text-decoration: none;
 
     &-text {
+      margin: 0 auto;
+
       font-family:
-        IBM Plex Sans Arial,
+        "IBM Plex Sans Arial",
         Helvetica,
         sans-serif;
-      font-weight: 500;
       font-size: 16px;
+      font-weight: 500;
       line-height: 100%;
-      letter-spacing: 0%;
       color: #0f0e08;
-      margin: 0 auto;
+      letter-spacing: 0%;
     }
 
     &-arrow {
-      width: 70px;
-      height: 70px;
-      background-color: #1a5a4c;
       display: flex;
       align-items: center;
       justify-content: center;
+
+      width: 70px;
+      height: 70px;
+
+      background-color: #1a5a4c;
     }
 
     &-icon {
@@ -87,44 +96,53 @@
     }
   }
   &-events {
+    transform-origin: left center;
+    transform: rotate(-90deg);
+
     display: flex;
+    display: inline-flex;
+    gap: 50px;
+    align-items: center;
+
+    margin-top: 30px;
+
     font-family:
-      IBM Plex Sans Arial,
+      "IBM Plex Sans Arial",
       Helvetica,
       sans-serif;
-    font-weight: 700;
     font-size: 14px;
+    font-weight: 700;
     line-height: 100%;
-    letter-spacing: 0%;
     color: #687480;
     text-decoration: none;
-    transform: rotate(-90deg);
-    display: inline-flex;
-    transform-origin: left center;
-    align-items: center;
-    margin-top: 30px;
-    gap: 50px;
+    letter-spacing: 0%;
 
     &::before{
-      rotate: 90deg;
       content:' ';
+
+      rotate: 90deg;
+
       display: block;
-      height: 70px;
+
       width: 1px;
+      height: 70px;
+
       background-color: #1A5A4C;
     }
   }
   &-photo{
-    background-image: url(/src/images/header/0e38579b397d74fefe899344f6f1daccae67b92e.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 55%;
     position: absolute;
     z-index: 1;
     top: 0;
     right: 0;
     transform: scaleX(-1);
+
+    width: 55%;
+    height: 100vh;
+
+    background-image: url(/src/images/header/0e38579b397d74fefe899344f6f1daccae67b92e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }

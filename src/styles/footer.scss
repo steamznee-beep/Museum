@@ -1,0 +1,129 @@
+.footer {
+  height: 50vh;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 55px;
+
+  &-content {
+    display: flex;
+    gap: 31px;
+    margin-top: 47px;
+  }
+
+  &-logo {
+    font-family:
+      Montserrat Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0f0e08;
+    margin-bottom: 62px;
+  }
+
+  &-image {
+    width: 24px;
+    height: 24px;
+
+    &-facebook{
+      width: 11px;
+      height: 24px;
+      margin-right: 28px;
+    }
+  }
+
+  &-icon {
+    gap: 28px;
+    margin-right: 130px;
+    flex-direction: column;
+    display: flex;
+
+    &-image{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  &-graphik {
+    &-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    &-item {
+      font-family:
+        IBM Plex Sans Arial,
+        Helvetica,
+        sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0%;
+
+      &-span {
+        font-family:
+          IBM Plex Sans Arial,
+          Helvetica,
+          sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0%;
+      }
+    }
+  }
+
+  &-label {
+    font-family:
+      IBM Plex Sans Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141%;
+    letter-spacing: 0%;
+    color: #0f0e08;
+  }
+
+  &-link {
+    display: block;
+    text-decoration: none;
+    font-family:
+      IBM Plex Sans Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #0f0e08;
+  }
+
+  &-line {
+    content: '';
+    width: 1px;
+    height: 260px;
+    background-color: #1a5a4c80;
+    margin: 0 65px;
+  }
+  &-under {
+    display: flex;
+    justify-content: space-between;
+
+    &-text {
+      margin-top: 87px;
+      font-family:
+        IBM Plex Sans Arial,
+        Helvetica,
+        sans-serif;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 141%;
+      letter-spacing: 0%;
+      color: #0f0e08;
+    }
+  }
+}
