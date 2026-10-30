@@ -65,7 +65,7 @@
   }
 }
 
-@media (max-width: 639px) {
+@media (max-width: 767px) {
   .container {
     padding-right: 20px;
     padding-left: 20px;
@@ -87,7 +87,7 @@
   }
 
   .header-logo {
-    margin: 20px auto 20px 28px;
+    margin: 20px  320px 28px;
     font-size: 28px;
   }
 
@@ -109,6 +109,10 @@
   .header-button-arrow {
     width: 60px;
     height: 60px;
+  }
+
+  .header-events{
+    margin-top: 80px;
   }
 
   .active-h1,
@@ -311,5 +315,26 @@
 
   .footer-under-text {
     margin: 20px 0 0;
+  }
+  .header-button {
+    width: 109px;
+    height: 57px;
+    margin: 0;
+  }
+  .header-title {
+    font-size: 20px;
+  }
+  .header-events {
+    margin-top: 90px;
+  }
+  .header-logo {
+    margin: 10px 120px 18px;
+    font-size: 28px;
+  }
+  .subscribe {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 120px;
+    padding: 0 29px 44px;
   }
 }

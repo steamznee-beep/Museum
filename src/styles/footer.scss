@@ -1,7 +1,7 @@
 .footer {
-  height: 50vh;
   width: 100%;
   max-width: 1280px;
+  height: 50vh;
   margin: 0 auto;
   padding: 0 55px;
 
@@ -12,16 +12,17 @@
   }
 
   &-logo {
+    margin-bottom: 62px;
+
     font-family:
-      Montserrat Arial,
+      "Montserrat Arial",
       Helvetica,
       sans-serif;
-    font-weight: 700;
     font-size: 36px;
+    font-weight: 700;
     line-height: 100%;
-    letter-spacing: 0%;
     color: #0f0e08;
-    margin-bottom: 62px;
+    letter-spacing: 0%;
   }
 
   &-image {
@@ -36,10 +37,10 @@
   }
 
   &-icon {
+    display: flex;
+    flex-direction: column;
     gap: 28px;
     margin-right: 130px;
-    flex-direction: column;
-    display: flex;
 
     &-image{
       display: flex;
@@ -49,27 +50,27 @@
 
   &-graphik {
     &-list {
-      list-style: none;
       margin: 0;
       padding: 0;
+      list-style: none;
     }
     &-item {
       font-family:
-        IBM Plex Sans Arial,
+        "IBM Plex Sans Arial",
         Helvetica,
         sans-serif;
-      font-weight: 600;
       font-size: 14px;
+      font-weight: 600;
       line-height: 150%;
       letter-spacing: 0%;
 
       &-span {
         font-family:
-          IBM Plex Sans Arial,
+          "IBM Plex Sans Arial",
           Helvetica,
           sans-serif;
-        font-weight: 400;
         font-size: 14px;
+        font-weight: 400;
         line-height: 150%;
         letter-spacing: 0%;
       }
@@ -78,36 +79,39 @@
 
   &-label {
     font-family:
-      IBM Plex Sans Arial,
+      "IBM Plex Sans Arial",
       Helvetica,
       sans-serif;
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
     line-height: 141%;
-    letter-spacing: 0%;
     color: #0f0e08;
+    letter-spacing: 0%;
   }
 
   &-link {
     display: block;
-    text-decoration: none;
+
     font-family:
-      IBM Plex Sans Arial,
+      "IBM Plex Sans Arial",
       Helvetica,
       sans-serif;
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
     line-height: 150%;
-    letter-spacing: 0%;
     color: #0f0e08;
+    text-decoration: none;
+    letter-spacing: 0%;
   }
 
   &-line {
     content: '';
+
     width: 1px;
     height: 260px;
-    background-color: #1a5a4c80;
     margin: 0 65px;
+
+    background-color: #1a5a4c80;
   }
   &-under {
     display: flex;
@@ -115,15 +119,16 @@
 
     &-text {
       margin-top: 87px;
+
       font-family:
-        IBM Plex Sans Arial,
+        "IBM Plex Sans Arial",
         Helvetica,
         sans-serif;
-      font-weight: 300;
       font-size: 12px;
+      font-weight: 300;
       line-height: 141%;
-      letter-spacing: 0%;
       color: #0f0e08;
+      letter-spacing: 0%;
     }
   }
 }

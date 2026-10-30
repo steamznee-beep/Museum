@@ -10,20 +10,38 @@
   &-small-photo {
     width: 370px;
     height: 600px;
+    transition: transform linear 0.5s;
 
     &-under {
       width: 370px;
       height: 360px;
+      transition: transform linear 0.5s;
+       &:hover{
+      transform:scale(1.04)
     }
+    }
+    &:hover{
+      transform:scale(1.04)
+    }
+
   }
 
   &-big-photo {
     width: 770px;
     height: 600px;
+    transition: transform linear 0.5s;
 
     &-under {
       width: 770px;
       height: 360px;
+      transition: transform linear 0.5s;
+
+      &:hover{
+        transform: scale(1.04);
+      }
+    }
+    &:hover{
+      transform: scale(1.04);
     }
   }
 
