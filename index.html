@@ -256,8 +256,10 @@
         </div>
         <form
           class="subscribe-form"
-          action="#"
-          method="post"
+          onsubmit="
+            event.preventDefault();
+            this.reset();
+          "
         >
           <input
             type="email"
