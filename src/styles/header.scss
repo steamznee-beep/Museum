@@ -60,6 +60,7 @@
     margin-top: 79px;
     margin-left: 10%;
     border: 1px solid #1a5a4c;
+    transition: border 0.3s linear;
 
     text-decoration: none;
 
@@ -86,6 +87,11 @@
       height: 70px;
 
       background-color: #1a5a4c;
+      transition: background-color 0.3s linear;
+
+      &:hover{
+        background-color: #19473c;
+      }
     }
 
     &-icon {
@@ -93,6 +99,11 @@
       width: 24px;
       height: 24px;
     }
+
+    &:hover{
+      border: 1px solid  #19473c  ;
+    }
+
   }
   &-events {
     transform-origin: left center;

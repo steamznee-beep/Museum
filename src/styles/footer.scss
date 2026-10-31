@@ -131,4 +131,16 @@
       letter-spacing: 0%;
     }
   }
+  &-button{
+    display: none;
+
+    &-link{
+    display: none;
+  }
+  &-icon{
+   width: 16px;
+   height: 16px;
+  }
+  }
+
 }

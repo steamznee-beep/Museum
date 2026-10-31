@@ -221,29 +221,63 @@
       >
         <div class="container">
           <h1 class="galery-label">Галерея</h1>
-          <div class="galery-strok">
-            <img
-              src="/src/images/Rectangle 13.5.png"
-              alt="galery small photo 1"
-              class="galery-small-photo"
-            />
-            <img
-              src="/src/images/Rectangle 3.1.png"
-              alt="galery big photo"
-              class="galery-big-photo"
-            />
-          </div>
-          <div class="galery-strok">
-            <img
-              src="/src/images/Rectangle 13.4.png"
-              alt="galery small photo 1"
-              class="galery-big-photo-under"
-            />
-            <img
-              src="/src/images/Rectangle 13.6.png"
-              alt="galery big photo"
-              class="galery-small-photo-under"
-            />
+          <div
+            class="galery-slider"
+            role="region"
+            aria-roledescription="карусель"
+            aria-label="Фото галереї"
+          >
+            <div class="galery-track">
+              <figure
+                class="galery-slide"
+                aria-label="Фото 1 з 4"
+              >
+                <img
+                  src="/src/images/Rectangle 13.5.png"
+                  alt="Фото 1 з галереї музею"
+                  class="galery-photo"
+                />
+              </figure>
+              <figure
+                class="galery-slide"
+                aria-label="Фото 2 з 4"
+              >
+                <img
+                  src="/src/images/Rectangle 3.1.png"
+                  alt="Фото 2 з галереї музею"
+                  class="galery-photo"
+                />
+              </figure>
+              <figure
+                class="galery-slide"
+                aria-label="Фото 3 з 4"
+              >
+                <img
+                  src="/src/images/Rectangle 13.4.png"
+                  alt="Фото 3 з галереї музею"
+                  class="galery-photo"
+                />
+              </figure>
+              <figure
+                class="galery-slide"
+                aria-label="Фото 4 з 4"
+              >
+                <img
+                  src="/src/images/Rectangle 13.6.png"
+                  alt="Фото 4 з галереї музею"
+                  class="galery-photo"
+                />
+              </figure>
+            </div>
+            <div
+              class="galery-indicators"
+              aria-hidden="true"
+            >
+              <span class="galery-indicator"></span>
+              <span class="galery-indicator"></span>
+              <span class="galery-indicator"></span>
+              <span class="galery-indicator"></span>
+            </div>
           </div>
         </div>
       </section>
@@ -353,6 +387,18 @@
               до закриття музею
             </span>
           </p>
+          <div class="footer-button">
+            <a
+              href="#"
+              class="footer-button-link"
+            >
+              <img
+                src="/src/images/carbon_arrow-up.png"
+                alt="back icon"
+                class="footer-button-icon"
+              />
+            </a>
+          </div>
         </div>
         <div class="footer-contact">
           <h1 class="footer-label">Контакти:</h1>
