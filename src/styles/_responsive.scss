@@ -48,6 +48,11 @@
 }
 
 @media (max-width: 767px) {
+  .header-link {
+    top: 20px;
+    left: 20px;
+  }
+
   .container {
     padding-right: 20px;
     padding-left: 20px;
@@ -215,16 +220,12 @@
     font-size: 10px;
   }
 }
-.footer-button{
-  display: none;
-}
 
 @media (max-width: 420px) {
   .header,
   .header-content {
     min-height: 560px;
   }
-
 
   .active-h1,
   .galery-label,
@@ -276,7 +277,6 @@
     height: 57px;
     margin: 0;
     margin-bottom: 50px;
-
   }
   .header-title {
     padding-top: 250px;
@@ -303,40 +303,70 @@
     background-position: 58% center;
   }
 
-  .active-h1{
+  .active-h1 {
     padding: 0 20px;
     max-width: 279px;
     text-align: center;
     font-size: 36px;
   }
 }
-.footer-button{
-  display: none;
-    position: absolute;
-    margin: 0;
-    width: 50px;
-    height: 50px;
-    border: solid 1px #1A5A4C;
-    border-radius: 50%;
-    right: 60px;
-      align-items: center;
-      justify-content: center;
 
-    &-link{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    &-icon{
-      display: block;
-    }
+.footer-button {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  border: solid 1px #1a5a4c;
+  border-radius: 50%;
+  right: 24px;
+  bottom: 24px;
+  opacity: 0;
+  visibility: hidden;
+  animation: reveal-back-to-top linear both;
+  animation-timeline: scroll(root);
+  animation-range: 0px 240px;
+  align-items: center;
+  justify-content: center;
+
+  &-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-icon {
+    display: block;
+  }
 }
 
 @media (max-width: 639px) {
   .footer-button {
     display: flex;
+    bottom: 72px;
   }
 }
+
+@keyframes reveal-back-to-top {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  1% {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+}
+
 
 @media (min-width: 1441px) {
   .header > .container {
@@ -353,5 +383,3 @@
     margin-left: clamp(24px, 5vw, 120px);
   }
 }
-
-

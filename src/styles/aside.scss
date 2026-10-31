@@ -55,6 +55,13 @@
     height: 13px;
   }
 
+  &-button {
+    position: absolute;
+    top: 21px;
+    left: 32px;
+    z-index: 1;
+  }
+
   &-line {
     flex: 0 0 1px;
     height: 145px;
@@ -130,8 +137,7 @@
   }
 
   .aside-button {
-    position: absolute;
-    top: 24px;
+    top: 20px;
     left: 20px;
   }
 

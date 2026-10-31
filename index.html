@@ -227,6 +227,10 @@
             aria-roledescription="карусель"
             aria-label="Фото галереї"
           >
+            <input class="galery-radio" type="radio" name="galery-slide" id="galery-slide-1" checked />
+            <input class="galery-radio" type="radio" name="galery-slide" id="galery-slide-2" />
+            <input class="galery-radio" type="radio" name="galery-slide" id="galery-slide-3" />
+            <input class="galery-radio" type="radio" name="galery-slide" id="galery-slide-4" />
             <div class="galery-track">
               <figure
                 class="galery-slide"
@@ -269,14 +273,11 @@
                 />
               </figure>
             </div>
-            <div
-              class="galery-indicators"
-              aria-hidden="true"
-            >
-              <span class="galery-indicator"></span>
-              <span class="galery-indicator"></span>
-              <span class="galery-indicator"></span>
-              <span class="galery-indicator"></span>
+            <div class="galery-indicators" aria-label="Оберіть фото галереї">
+              <label class="galery-indicator" for="galery-slide-1" aria-label="Фото 1"></label>
+              <label class="galery-indicator" for="galery-slide-2" aria-label="Фото 2"></label>
+              <label class="galery-indicator" for="galery-slide-3" aria-label="Фото 3"></label>
+              <label class="galery-indicator" for="galery-slide-4" aria-label="Фото 4"></label>
             </div>
           </div>
         </div>
@@ -387,18 +388,6 @@
               до закриття музею
             </span>
           </p>
-          <div class="footer-button">
-            <a
-              href="#"
-              class="footer-button-link"
-            >
-              <img
-                src="/src/images/carbon_arrow-up.png"
-                alt="back icon"
-                class="footer-button-icon"
-              />
-            </a>
-          </div>
         </div>
         <div class="footer-contact">
           <h1 class="footer-label">Контакти:</h1>
@@ -460,6 +449,8 @@
         <p class="footer-under-text">Designed by Zhyriada Marina</p>
       </div>
     </footer>
-    <script src="src/scripts/main.js"></script>
+    <a href="#" class="footer-button" aria-label="Повернутися нагору">
+      <img src="/src/images/carbon_arrow-up.png" alt="" class="footer-button-icon" />
+    </a>
   </body>
 </html>
